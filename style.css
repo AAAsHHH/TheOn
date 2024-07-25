@@ -1,14 +1,18 @@
 .container {
-  width: 100%;
+ display: flex;
+}
+.item {
+  flex: 1;
 }
 @media screen and (max-width: 480px) {
   .container {
       background-color: black;
   }
 }
-img {
+img,
+picture,
+video {
   max-width: 100%;
-  height: auto;
 }
 /* [2] */
 @font-face {
