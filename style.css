@@ -1,4 +1,15 @@
-
+.container {
+  width: auto;
+}
+@media screen and (max-width: 480px) {
+  .container {
+      background-color: lightblue;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 /* [2] */
 @font-face {
     font-family: 'Zen Antique';
