@@ -1,0 +1,11 @@
+{
+    "lang": "en",
+    "name": "cycletracker",
+    "short_name": "CT",
+    "description": "",
+    "start_url": "/start.html",
+    "display": "fullscreen",
+    "orientation": "landscape",
+    "theme_color": "aliceblue",
+    "background_color": "red"
+}
