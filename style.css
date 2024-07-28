@@ -42,7 +42,7 @@ video {
   position: absolute;
   top: 75%;
   transform: translateY(-75%);
-  color: black;
+  color: rgb(231, 231, 231);
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
 }
