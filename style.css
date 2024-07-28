@@ -14,8 +14,50 @@ picture,
 video {
   max-width: 100%;
 }
-/* preLoader */
+/* preboarder ofbrowsers */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
+}
+/* preLoader */
+.preload{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease;
+}
+.skull{
+  height: 200px;
+  animation: skull 4s infinite alternate;
+}
+.preload h3 {
+  position: absolute;
+  top: 75%;
+  transform: translateY(-75%);
+  color: black;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.preload-finish{
+  opacity: 0;
+  pointer-events: none;
+}
+@keyframes skull {
+  from{
+    translate: -100px;
+  }
+  to{
+    translate: 100px;
+  }
+  
+}
 /* [2] */
 @font-face {
     font-family: 'Zen Antique';
