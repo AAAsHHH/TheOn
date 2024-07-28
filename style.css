@@ -37,7 +37,6 @@ video {
 .skull{
   height: 200px;
   animation: skull 4s infinite alternate;
-  z-index: 9999;
 }
 .preload h3 {
   position: absolute;
