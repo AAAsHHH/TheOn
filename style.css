@@ -15,12 +15,12 @@ video {
   max-width: 100%;
 }
 /* preboarder ofbrowsers */
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
-}
+} */
 /* preLoader */
 .preload{
   position: fixed;
