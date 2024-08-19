@@ -1,209 +1,10 @@
-/* html {
-	justify-content: center;
-}
-body {
-	display: flex;
-	flex-direction: column;
-    height: 500%;
-    margin: 0; 
-	overflow-y: none;
-	overflow-x: hidden;
-}
-body::after{
-	position: absolute;
-	width: 0;
-	height: 0;
-	overflow: hidden;
-	z-index: -1;
-	content: url(./theon.gif);
-}
 
-.about {
-  	position: absolute;
-  	top: calc(50% - 10.5px);
-	left: calc(50% - 10px);
-  	line-height: 22px;
-	cursor: pointer;
-	z-index: 1000;
-	transition: all ease-in-out 200ms;
-}
-.about:hover {
-	color: #000;
-}
-
-.frame {
-  	position: absolute;
-  	top: 3px;
-  	left: 00px;
-  	border-radius: 4px;
-  	background-color: rgba(0, 0, 0, 0);
-  	width: 15vw;
-  	height: 20px;
-  	overflow: none;
-}
-.artists {
-  	position: absolute;
-  	top: calc(50% - 10.5px);
-  	left: calc(50% - 11px);
-  	line-height: 22px;
-	cursor: pointer;
-	z-index: 1000;
-}
-.frame1 {
-  	position: absolute;
-  	top: 3px;
-  	left: 100px;
-  	border-radius: 4px;
-  	background-color: rgba(0, 0, 0, 0);
-  	width: 15vw;
-  	height: 20px;
-  	overflow: hidden;
-}
-.agencies {
-  	position: absolute;
-  	top: calc(50% - 10.5px);
-  	left: calc(50% - 15px);
-  	line-height: 22px;
-	cursor: pointer;
-	z-index: 1000;
-}
-.frame2 {
-  	position: absolute;
-  	top: 3px;
-  	left: 200px;
-  	border-radius: 4px;
-  	background-color: rgba(0, 0, 0, 0);
-  	width: 15vw;
-  	height: 20px;
-  	overflow: hidden;
-}
-.collection {
-  	position: absolute;
-  	top: calc(50% - 10.5px);
-  	left: calc(50% - 17px);
-  	line-height: 22px;
-	cursor: pointer;
-	z-index: 1000;
-}
-.frame3 {
-  	position: absolute;
-  	top: 3px;
-  	left: 300px;
-  	border-radius: 6px;
-  	background-color: rgba(0, 0, 0, 0);
-  	width: 15vw;
-  	height: 20px;
-  	overflow: hidden;
-}
-.contact {
-  	position: absolute;
-  	top: calc(50% - 10.5px);
-  	left: calc(50% - 13.5px);
-  	line-height: 22px;
-	cursor: pointer;
-	z-index: 1000;
-}
-.frame4 {
-  	position: absolute;
-  	top: 3px;
-  	left: 400px;
-  	border-radius: 6px;
-  	background-color: rgba(0, 0, 0, 0);
-  	width: 15vw;
-  	height: 20px;
-  	overflow: hidden;
-}
-
-.get-started {
-  	position: relative;
-  	line-height: 100%;
-
-}
-.button {
-  	align-self: stretch;
-  	flex: 1;
-  	box-shadow: 0px 2px 4px rgba(136, 144, 194, 0.2), 0px 5px 15px rgba(37, 44, 97, 0.15);
-  	border-radius: 4px;
-  	background-color: #866f8a;
-  	overflow: hidden;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: center;
-	cursor: pointer;
-}
-
-.container {
-  	position: fixed;
-  	top: 0px;
-  	left: 0px;
-  	box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
-  	background-color: #fff4fd;
-  	width: 100vw;
-  	height: 80px;
-  	overflow: none;
-	display: flex;
-	justify-content: center;
-	z-index: 1000;
-}
-.image-icon {
-	background-image: url("../theon_256.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	transition: all ease-in-out 100ms;
-	position: relative;
-	top: 15px;
-	left: -70px;
-	width: 40px;
-	height: 40px;
-	overflow: hidden;
-}
-.image-icon:hover {
-	background-image: url("../theon.gif");
-}
-.electrovibe {
-	position: relative;
-	top: 12px;
-	left: 60px;
-	font-size: 20px;
-	line-height: 21px;
-	padding: 10px 0 20px 1px;
-	font-weight: 60;
-}
-.header-menu {
-	position: relative;
-	top: 25px;
-	left: -10px;
-	background-color: rgba(0, 0, 0, 0);
-	width: 60vw	;
-	height: 20px;
-	color: #866f8a;
-	font-family: Manrope;
-	font-size: 14px;
-	overflow: none;
-}
-.classic-buttonfalse {
-	position: relative;
-	top: 20px;
-	left: 30px;
-	width: 60px;
-	height: 30px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
-	padding: 1px 0px;
-	box-sizing: border-box;
-	color: #fffafa;
-	font-family: Lato;
-}
- */
  :root {
     --menu-count: 6;
 }
 a:link {
     text-decoration: none;
+	
 }
 body {
     background-color: #fff4fd;
@@ -217,6 +18,7 @@ body {
 	padding: 10px 0 20px 1px;
 	font-weight: 60;
 }
+
 .header-main {
     width: 100%;
     padding: 0 60px;
@@ -461,12 +263,14 @@ ul li:hover .about {
   	width: 100%;
   	position: relative;
   	background-color: #fff;
-  	height: 533vh;
-  	overflow-y: none;
+  	/* height: 700vh; */
+	  /* overflow-y: none; */
+	height: 100vh;
+  	overflow-y: hidden;
 	overflow-x: hidden;
-  	font-size: 7px;
   	color: #000;
   	font-family: Lexend;
+	scroll-behavior: smooth;
 	
 }
 .rectangle-icon {
@@ -502,10 +306,11 @@ ul li:hover .about {
 ________________________________________________________________________________________________________*/
 .container1 {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(20px, 100px));
-	grid-gap: 20em;
-	grid-auto-rows: 32em;
+	grid-template-columns: repeat(auto-fit, minmax(1vw, 1vw));
+	grid-gap: 16em;
+	grid-auto-rows: 12vh;
 	justify-content: center;
+	/* align-items: center; */
 	margin: auto;
 	padding: 0rem 0em;
   	position: absolute;
@@ -533,14 +338,15 @@ ________________________________________________________________________________
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	
 	/* margin: auto; */
   	position: relative;
-  	top: 20em;
-  	left: -10px;
+  	top: 25vh;
+  	left: calc(50% - 5em);
   	box-shadow: 6px 6px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
   	border-radius: 4px;
   	background-color: #fff;
-  	width: 200px;
+  	width: 12vw;
   	height: 351px;
   	overflow: hidden;
 }
@@ -592,26 +398,26 @@ ________________________________________________________________________________
 .dj-sasha {
 	position: absolute;
 	text-align: left;
-	top: 8em;
+	top: 250px;
 	left: 12px;
-	font-size: 28px;
+	font-size: 1.2vw;
 	line-height: 26px;
 }
 .artist-icon {
 	position: absolute;
-	top: calc(50% - 165px);
-	left: calc(50% - 92px);
+	top: calc(50% - 18vh);
+	left: calc(50%-10vw);
 	border-radius: 6px;
-	width: 185px;
+	width: 10vw;
 	height: 190px;
 	object-fit: cover;
 }
 
 .hypnotic-music {
 	position: absolute;
-	top: 21em;
+	top: 30vh;
 	left: 12px;
-	font-size: 1.7em;
+	font-size: 1vw;
 	line-height: 26px;
 	display: inline-block;
 	text-align: left;
@@ -622,8 +428,8 @@ ________________________________________________________________________________
 
 .button2 {
 	position: absolute;
-	top: 43em;
-	left: 12px;
+	top: 1em;
+	left: 1vw;
 	border-radius: 999px;
 	background-color: rgba(134, 111, 138, 0.79);
 	width: 80px;
@@ -638,6 +444,7 @@ ________________________________________________________________________________
 	color: #fff;
 	font-family: Lato;
 	cursor: pointer;
+	z-index: 100;
 }
 .genres {
 	position: absolute;
@@ -835,7 +642,7 @@ ________________________________________________________________________________
 	margin: 0%;
 	padding: 0rem 0em;
   	position: absolute;
-  	top: 160vh;
+  	top: 200vh;
   	left: 0px;
   	background-color: #fff;
   	width: 100vw;
@@ -966,7 +773,7 @@ _________________________________________________________________________ */
 	margin: 0%;
 	padding: 0rem 0em;
   	position: absolute;
-  	top: 230vh;
+  	top: 300vh;
   	left: 0px;
   	background-color: #fff;
   	width: 100vw;
@@ -1223,11 +1030,11 @@ _________________________________________________________________________ */
 	margin: 0%;
 	padding: 0rem 0em;
 	position: absolute;
-	top: 310vh;
+	top: 400vh;
 	left: calc(50% - 180px);
 	background-color: #fff;
-	width: 360px;
-	height: 754px;
+	width: 100vw;
+	height: 100vh;
 	font-size: 10px;
 	color: #866f8a;
 	font-family: Manrope;
@@ -1271,7 +1078,7 @@ _________________________________________________________________________ */
 	border-radius: 4px;
 	background-color: #fff;
 	width: 30em;
-	height: 13em;
+	height: 10vh;
 	overflow: hidden;
 	cursor: pointer;
 }
@@ -1346,7 +1153,7 @@ _________________________________________________________________________ */
 	overflow: hidden;
 	cursor: pointer;
 }
-.artist-services {
+.container5 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(10px, 100px));
 	grid-gap: 350px;
@@ -1355,7 +1162,7 @@ _________________________________________________________________________ */
 	margin: 0%;
 	padding: 0rem 0em;
 	position: absolute;
-	top: 360vh;
+	top: 500vh;
 	left: 47em;
 	background-color: #fff;
 	width: 100vw;
@@ -1805,25 +1612,25 @@ _________________________________________________________________________ */
   	width: 80px;
   	height: 34px;
 }
-.container-21 {
+.container7 {
   	position: absolute;
-  	top: 699px;
-  	left: 0em;
+  	top: 700vh;
+  	left: 0px;
   	box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
   	background-color: #fff4fd;
   	width: 100vw;
-  	height: 206px;
+  	height: 100vh;
   	overflow: hidden;
   	font-size: 9px;
   	color: #323743;
   	font-family: Manrope;
 }
-.online-radioo {
+.container6 {
   	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-  	top: 435vh;
+  	top: 600vh;
 
   	background-color: #fff;
   	width: 360px;
@@ -1838,6 +1645,204 @@ _________________________________________________________________________ */
 
 
 @media screen and (max-width: 500px) {
+	
+	.electrovibe {
+		position: relative;
+		top: -15px;
+		left: -12px;
+		width: 70px;
+		font-size: 17px;
+		line-height: 21px;
+		/* padding: 100px 50px 20px 0px; */
+		font-weight: 60;	
+		
+	}
+	.header-main {
+		width: 100%;
+		padding: 0 5vw;
+		height: 80px;
+
+		background-color: #fff4fd;
+		display: flex;
+		justify-content: space-between;
+		position: fixed;
+		top: 0;
+		z-index: 100;
+	}
+	.header-main nav {
+		display: flex;
+	}
+	.header-main .logo {
+		position: relative;
+		top: -14px;
+		height: 40px;
+		width: fit-content;
+		align-self: center;
+		cursor: pointer;
+	}
+	.header-main .logo img {
+		height: 100%;
+	}
+	.header-main ul {
+	
+		height: 100%;
+		padding-left: 0px;
+		list-style: none;
+		display: flex;
+		align-self: center;
+	}
+	.header-main ul li {
+		position: relative;
+	
+	}
+	.header-main ul li a {
+		display: block;
+		padding: 0 2.5vw;
+		height: 100%;
+		line-height: 75px;
+		font-size: .4rem;
+		color: black;
+		background-color: #fff4fd;
+		text-transform: uppercase;
+		cursor: pointer;
+		transition: all ease-in-out 100ms;
+	}
+	.header-main ul li a:hover {
+		color: #fff4fd;
+		background-color: black;
+	
+	}
+	.about {
+		font-size: 40px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		/* width: 87vw; */
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+		position: absolute;
+		left: -17vw;
+		transition: all ease-in-out 100ms;
+		border: 16px dashed #111;
+	}
+	.header-main ul li ul {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+		position: absolute;
+		left: 0px;
+		transition: all ease-in-out 100ms;
+	}
+	.header-main ul li ul li a {
+		white-space: nowrap;
+	}
+	ul li:hover>ul {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+	}
+	ul li:hover .about {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+	}
+	.header-main .sm {
+		position: absolute;
+		left: 1600px;
+		align-self: center;
+		display: flex;
+	}
+	.header-main form {
+		height: 40px;
+		padding-right: 5px;
+		display: flex;
+		border: 1px solid #aeaeae;
+		border-radius: 20px 100px 100px 20px;
+		width: fit-content;
+		align-self: center;
+	}
+	.header-main form input {
+		height: 100%;
+		width: 300px;
+		padding: 0 10px 0 20px;
+		border-radius: 5px;
+		font-size: 1rem;
+	}
+	.header-main form input:focus {
+		border: 1px solid #111;
+	}
+	.header-main form button {
+		width: fit-content;
+		padding: 0 5px 0 10px;
+	}
+	.header-main form button img {
+		height: 24px;
+		padding-top: 15%;
+		cursor: pointer;
+	}
+	.header-main .sm-links {
+		height: 60px;
+		width: fit-content;
+		display: flex;
+		align-items: center;
+	}
+	.header-main .sm-links img {
+		height: 30px;
+		margin-left: 10px;
+		cursor: pointer;
+		align-self: center;
+	}
+	.preload{
+		position: relative;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: #000000;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: opacity 5s ease;
+		z-index: 9999;  
+	  }
+	  .parent{
+		position: relative; /* Establishes a positioning context for absolute children */
+		width: 360px; /* Set a width for the container */
+		height: 666px; /* Set a height for the container */
+		border: 1px solid #000;
+	  }
+	  .skull{
+		position: absolute; /* Positioning this element absolutely */
+		top: 0; /* Align to the top of the container */
+		left: 0; /* Align to the left of the container */
+		width: 100%; /* Full width of the container */
+		height: 100%; /* Full height of the container */
+		background-color: rgba(0, 0, 0, 0); /* Semi-transparent blue */
+		display: flex; /* Center text */
+		align-items: center; /* Center vertically */
+		justify-content: center; /* Center horizontally */
+		color: white; /* Text color */
+		animation: skull 4s infinite alternate;
+	  }
+	  .ash{
+		position: absolute; /* Positioning this element absolutely */
+		top: 60px; /* Offset from top */
+		left: -180px; /* Offset from left */
+		width: 200%; /* Full width of the container */
+		height: 100%; /* Full height of the container */
+		background-color: rgba(255, 0, 0, 0); /* Semi-transparent red */
+		display: flex; /* Center text */
+		align-items: center; /* Center vertically */
+		justify-content: center; /* Center horizontally */
+		transform: scale(0.5);
+		animation: skull 2s infinite alternate;
+	  }
+	  .theon{
+		position: absolute;
+		left: 50px;
+		top: 0px;
+		background-color: rgba(0, 0, 0, 0); /* Semi-transparent red */
+		animation: skull 8s infinite alternate;
+	  }
+	/* under header */
     .header-menu {
         font-size: 7px;
 		width: 200px;
@@ -1862,11 +1867,7 @@ _________________________________________________________________________ */
 		width: 19px;
 		height: 19px;
 	}
-	.electrovibe{
-		top: 15	px;
-		left: 0px;
-		font-size: 12px;
-	}
+
 	.group-child1 {
 		left: -150px;
 	}
@@ -1875,11 +1876,38 @@ _________________________________________________________________________ */
 		height: 25px;
 	}
 	.container1 {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(100px, 40px));
 		grid-gap: 10em;
+		grid-auto-rows: 5em;
+		justify-content: center;
+		margin: auto;
+		padding: 0em 1em;
+		  position: absolute;
+		  top: 100vh;
+		  left: 0px;
+		  background-color: #fff;
+		  width: 100vw;
+		  height: 100vh;
+		  color: #171a1f;
+		  font-family: Manrope;
+		overflow: none;
 	}
 	.card {
-		width: 127px;
-		height: 223px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		/* margin: auto; */
+		  position: relative;
+		  top: 10em;
+		  left: -10px;
+		  box-shadow: 6px 6px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
+		  border-radius: 4px;
+		  background-color: #fff;
+		  width: 127px;
+		  height: 223px;
+		  overflow: hidden;
+
 	}
 	.dj-sasha {
 		position: absolute;
@@ -1922,8 +1950,10 @@ _________________________________________________________________________ */
 		left: calc(50% - 42px);
 	}
 	.container2 {
-		  top: 220vh;
+		  top: 300vh;
 		  left: 0px;
+		  width: 100vw;
+		  height: 100vh;
 	}
 	.academy {
 		position: absolute;
@@ -2115,11 +2145,11 @@ _________________________________________________________________________ */
 	}
 	.container3 {
 		position: absolute;
-		top: 360vh;
+		top: 400vh;
 		left: calc(50% - 179px);
 		background-color: #fff;
-		width: 360px;
-		height: 719px;
+		width: 100vw;
+		height: 100vh;
 		font-size: 20px;
 		color: #171a1f;
 		font-family: Manrope;
@@ -2364,11 +2394,11 @@ _________________________________________________________________________ */
 }
 .container4 {
 	position: absolute;
-	top: 445vh;
+	top: 500vh;
 	left: calc(50% - 180px);
 	background-color: #fff;
-	width: 360px;
-	height: 754px;
+	width: 100vw;
+	height: 100vh;
 	font-size: 10px;
 	color: #866f8a;
 	font-family: Manrope;
@@ -2481,13 +2511,13 @@ _________________________________________________________________________ */
 	height: 174px;
 	overflow: hidden;
 }
-.artist-services {
+.container5 {
 	position: absolute;
-	top: 540vh;
+	top: 600vh;
 	left: 7%;
 	background-color: #fff;
 	width: 360px;
-	height: 1270px;
+	height: 100vh;
 	font-size: 16px;
 	color: #866f8a;
 	font-family: Manrope;
@@ -2928,28 +2958,41 @@ _________________________________________________________________________ */
   	width: 80px;
   	height: 34px;
 }
-.container-21 {
+.container7 {
   	position: absolute;
-  	top: 699px;
-  	left: -4em;
+  	top: 800vh;
+  	left: 0px;
   	box-shadow: 0px 0px 2px rgba(23, 26, 31, 0.12), 0px 0px 1px rgba(23, 26, 31, 0.07);
   	background-color: #fff4fd;
   	width: 100vw;
-  	height: 206px;
+  	height: 100vh;
   	overflow: hidden;
   	font-size: 9px;
   	color: #323743;
   	font-family: Manrope;
 }
-.online-radioo {
+.container6 {
   	position: absolute;
-  	top: 693vh;
+  	top: 700vh;
   	left: calc(50% - 180px);
   	background-color: #fff;
   	width: 360px;
-  	height: 905px;
+  	height: 100vh;
   	font-size: 20px;
   	color: #171a1f;
+}
+.android-large-1 {
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+	/* height: 700vh; */
+		/* overflow-y: none; */
+	height: 100vh;
+	overflow-y: hidden;
+  overflow-x: hidden;
+	color: #000;
+	font-family: Lexend;
+  
 }
 }
 @keyframes skull {
